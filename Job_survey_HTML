@@ -1,0 +1,87 @@
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <h1 id='title'>Job Survey</h1>
+  <p id='description'>Thank you for taking part in this work survey.</p>
+  <form id='survey-form'>
+    <div class='input-element'>
+      <label id='name-label'>Please enter your name:</label>
+      <input id='name' required placeholder='Name'>
+    </div>
+    <div class='input-element'>
+    <label id='email-label'>Please enter your email:</label>
+    <input id='email' type='email' required placeholder='example@gmail.com'>
+    </div>
+    <div class='input-element'>
+    <label id='number-label'>Please enter your number:</label>
+    <input id='number' type='number' min='100' max='1000' required placeholder='07382145684'>
+    </div>
+    <div class='input-element'>
+    <label id='gender-label'>Gender:</label>
+    <select id='dropdown'>
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+
+    </div>
+
+    <div class='input-element'>
+    <label id='employment-label'>Employed:</label>
+    <div>
+      <label>
+        <input type='radio' name='radio1' id='radio1' value='value1'>
+        Employed
+        </input>
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type='radio' name='radio1' id='radio1' value='value1'>
+        Unemployed
+        </input>
+      </label>
+    </div>
+    </div>
+
+    <div class='input-element'>
+    <label id='Education'>Graduated from University:</label>
+    <div>
+      <label>
+        <input type='radio' name='radio2' value='value1'>
+        Yes
+        </input>
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type='radio' name='radio2' value='value2'>
+        No
+        </input>
+      </label>
+    </div>
+    <label><input type='radio' name='radio2' value='value3'>Currently studying</input></label>
+    </div>
+
+
+    <div class='input-element'>
+    <div><label>What are the important perks of a job for you:</label></div>
+    <div><label><input type='checkbox' value='checkbox1'>Short commute time</input></label></div>
+    <div><label><input type='checkbox' value='checkbox2'>Good holidays</input></label></div>
+    <div><label><input type='checkbox' value='checkbox2'>Good career progression</input></label></div>
+    <div><label><input type='checkbox' value='checkbox2'>Training/skill development</input></label></div>
+    <div><label><input type='checkbox' value='checkbox2'>Hybrid/remote work environment</input></label></div>
+
+    </div>
+
+    <div class='input-element'>
+    <label>How would you describe your ideal job?:</label>
+    <div>
+    <textarea></textarea>
+    </div>
+    </div>
+    <div class='input-element'>
+    <button id='submit' type='submit'>
+      Submit
+    </button>
+    </div>
+  </form>
+</html>
