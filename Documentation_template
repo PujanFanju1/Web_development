@@ -1,0 +1,60 @@
+** start of undefined **
+
+<main id='main-doc'>
+  <link rel="stylesheet" href="styles.css">
+  <nav id='navbar'>
+    <header>Navbar</header>
+    <a class='nav-link' href='#Topic_1'>Topic 1</a>
+    <a class='nav-link' href='#Topic_2'>Topic 2</a>
+    <a class='nav-link' href='#Topic_3'>Topic 3</a>
+    <a class='nav-link' href='#Topic_4'>Topic 4</a>
+    <a class='nav-link' href='#Topic_5'>Topic 5</a>
+  </nav>
+  <section class='main-section' id='Topic_1'>
+    <header id='topic1'>Topic 1</header>
+    <p>Test</p>
+    <p>Test</p>
+    <code>Test code</code>
+    <li>Test list</li>
+  </section>
+  <section class='main-section' id='Topic_2'>
+    <header id='topic2'>Topic 2</header>
+    <p>Test</p>
+    <p>Test</p>
+    <code>Test code</code>
+    <li>Test list</li>
+  </section>
+  <section class='main-section' id='Topic_3'>
+    <header id='topic3'>Topic 3</header>
+    <p>Test</p>
+    <p>Test</p>
+    <code>Test code</code>
+    <li>Test list</li>
+  </section>
+  <section class='main-section' id='Topic_4'>
+    <header id='topic4'>Topic 4</header>
+    <p>Test</p>
+    <p>Test</p>
+    <code>Test code</code>
+    <li>Test list</li>
+  </section>
+  <section class='main-section' id='Topic_5'>
+    <header id='topic5'>Topic 5</header>
+    <p>Test</p>
+    <p>Test</p>
+    <code>Test code</code>
+    <li>Test list</li>
+  </section>
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+** end of undefined **
