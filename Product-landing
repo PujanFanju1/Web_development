@@ -1,0 +1,63 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <img id='header-img' src=''></img>
+      <nav id='nav-bar'>
+        <a class='nav-link' href='#h1'>Link 1</a>
+        <a class='nav-link' href='#h2'>Link 2</a>
+        <a class='nav-link' href='#h3'>Link 3</a>
+      </nav>
+    </header>
+    <h1 id='h1'>Header 1</h1>
+    <video id='video' src=''></video>
+    <h1 id='h2'>Header 2</h1>
+    <form id='form' action='https://www.freecodecamp.com/email-submit'>
+      <p>Email:</p>
+      <input id='email' placeholder='example@gmail.com' type='email' name='email'></input>
+      <input id='submit' type='submit'></input>
+    </form>
+    <h1 id='h3'>Header 3</h1>
+  </body>
+</html> 
+
+** end of undefined **
+
+** start of undefined **
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column
+}
+
+#h1{
+  padding: 100 0 0 0;
+}
+
+@media (max-width: 600px){
+  header{
+    background-color: red
+  }
+}
+
+.nav-link{
+  display: flex;
+  flex-direction: column;
+  text-align: left
+}
+
+** end of undefined **
